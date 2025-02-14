@@ -12,6 +12,7 @@ import java.util.List;
  * @author camilo.torreso
  */
 public class Empleado {
+    //Atributos de la clase
    protected String dni;
    protected String nombres;
    protected String apellidos;
@@ -22,4 +23,17 @@ public class Empleado {
    protected Empresa empresa;
    protected List<Proyecto> listaDeProyectos;
    protected List<Tarea> listaDeTareas;
+   
+   //Contructor por defecto
+   
+   public Empleado(){
+       
+   }
+   
+   //Contrustor con Parametros
+   
+   public Empleado(String nom, String ape){
+       this.nombres = nom;
+       this.apellidos = ape;
+   }
 }

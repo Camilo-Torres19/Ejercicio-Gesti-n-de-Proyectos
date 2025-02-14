@@ -4,6 +4,8 @@
  */
 package ejercicio;
 
+import Clases.Empresa;
+
 /**
  *
  * @author camilo.torreso
@@ -15,6 +17,8 @@ public class Principal {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Empresa empresa = new Empresa();
+  
     }
     
 }

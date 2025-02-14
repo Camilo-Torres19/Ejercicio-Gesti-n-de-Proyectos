@@ -11,6 +11,7 @@ import java.util.*;
  * @author camilo.torreso
  */
 public class Proyecto {
+    //Atributos de la clase
   private String nombreClave;
   private String denominacion;
   private Date fechaInicio;
@@ -20,4 +21,17 @@ public class Proyecto {
   private List<Empleado> listaDeEmpleados;
   private Promotor empleadoPromotor;
   private List<Tarea> listaDeTareass;
+  
+  //Contructor por defecto
+ 
+  public Proyecto(){
+     
+ }
+ 
+ //Contrustor con Parametros
+ 
+ public Proyecto(String nombreClave, String deno){
+     this.nombreClave = nombreClave;
+     this.denominacion = deno;
+ }
 }

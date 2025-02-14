@@ -11,9 +11,25 @@ import java.util.Date;
  * @author camilo.torreso
  */
 public class ManoDeObra {
+    
+    //Atributos de la clase
+  
   private Empleado trabajador;
   private Proyecto proyecto;
   private Date fechaInicio;
   private Date fechaFin;
   private String rol;
+  
+  //Contructor por defecto
+  
+  public ManoDeObra(){
+      
+  }
+  
+  //Contrustor con Parametros
+  
+  public ManoDeObra(Empleado e, Proyecto p){
+      trabajador = e;
+      proyecto = p;
+  }
 }

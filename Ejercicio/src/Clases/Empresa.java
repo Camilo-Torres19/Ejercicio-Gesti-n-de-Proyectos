@@ -11,6 +11,7 @@ import java.util.List;
  * @author camilo.torreso
  */
 public class Empresa {
+    //Atributos de la clase
    private String nit;
    private String nombre;
    private String tipo;
@@ -20,4 +21,18 @@ public class Empresa {
    private String direccion;
    private List<Proyecto> listaDeProyectos;
    private List<Empleado> listaDeEmpleados;
+   
+   //Contructor por defecto
+  
+   public Empresa(){
+       
+   }
+   
+   //Contrustor con Parametros
+   
+   public Empresa(String nit, String nombre){
+       this.nit = nit;
+       this.nombre = nombre;
+   }
+   
 }
